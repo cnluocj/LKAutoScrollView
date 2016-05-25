@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "LKAutoScrollView"
   s.version      = "1.0"
-  s.summary      = "A short description of LKAutoScrollView."
+  s.summary      = "This is a auto scroll view"
   s.homepage     = "https://github.com/bt67123/LKAutoScrollView"
   s.license      = "MIT"
   s.author             = { "luochujian" => "350481693@qq.com" }
