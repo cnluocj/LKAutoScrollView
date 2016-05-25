@@ -18,10 +18,10 @@
 /* Begin PBXFileReference section */
 		4BC132E61CF5A5DE0074FA13 /* LKAutoScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKAutoScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC132EA1CF5A5DE0074FA13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4BC132EC1CF5A5DE0074FA13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4BC132ED1CF5A5DE0074FA13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4BC132EF1CF5A5DE0074FA13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4BC132F01CF5A5DE0074FA13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BC132EC1CF5A5DE0074FA13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		4BC132ED1CF5A5DE0074FA13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		4BC132EF1CF5A5DE0074FA13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		4BC132F01CF5A5DE0074FA13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		4BC132F31CF5A5DE0074FA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BC132F51CF5A5DE0074FA13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC132F81CF5A5DE0074FA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +58,7 @@
 		4BC132E81CF5A5DE0074FA13 /* LKAutoScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				4BC132EC1CF5A5DE0074FA13 /* AppDelegate.h */,
-				4BC132ED1CF5A5DE0074FA13 /* AppDelegate.m */,
-				4BC132EF1CF5A5DE0074FA13 /* ViewController.h */,
-				4BC132F01CF5A5DE0074FA13 /* ViewController.m */,
+				4BC133001CF5A8390074FA13 /* Classes */,
 				4BC132F21CF5A5DE0074FA13 /* Main.storyboard */,
 				4BC132F51CF5A5DE0074FA13 /* Assets.xcassets */,
 				4BC132F71CF5A5DE0074FA13 /* LaunchScreen.storyboard */,
@@ -77,6 +74,17 @@
 				4BC132EA1CF5A5DE0074FA13 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BC133001CF5A8390074FA13 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BC132EC1CF5A5DE0074FA13 /* AppDelegate.h */,
+				4BC132ED1CF5A5DE0074FA13 /* AppDelegate.m */,
+				4BC132EF1CF5A5DE0074FA13 /* ViewController.h */,
+				4BC132F01CF5A5DE0074FA13 /* ViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

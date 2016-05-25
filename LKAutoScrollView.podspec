@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author             = { "luochujian" => "350481693@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/bt67123/LKAutoScrollView.git", :tag => "1.0" }
-  s.source_files  = "LKAutoScrollView/*"
+  s.source_files  = "LKAutoScrollView/LKAutoScrollView/Classes/*.{h,m}"
   s.framework  = "UIKit"
   s.requires_arc = true
 end
